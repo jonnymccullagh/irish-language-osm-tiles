@@ -1,0 +1,26 @@
+{
+    "options": {
+      "paths": {
+        "root": "",
+        "fonts": "fonts",
+        "mbtiles": "",
+        "styles": "styles"
+      }
+    },
+    "styles": {
+      "jonny": {
+        "style": "ga/style.json",
+        "sources": {
+        "ireland-vector": {
+          "url": "mbtiles://{ireland-vector}",
+          "type": "vector"
+        }
+      }
+      }
+    },
+    "data": {
+      "ireland-vector": {
+        "mbtiles": "tiles.mbtiles"
+      }
+    }
+  }
