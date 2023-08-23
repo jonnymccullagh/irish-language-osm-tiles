@@ -1,4 +1,4 @@
-name: build-tiles.yml
+name: test-artifact-copy.yml
 
 on:
   repository_dispatch:
