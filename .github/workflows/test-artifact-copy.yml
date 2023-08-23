@@ -18,11 +18,11 @@ jobs:
         sudo ./aws/install --update
     - name: build-tiles
       run: |
-          bash build-tiles.sh
+          wget http://ftp.de.debian.org/debian/pool/main/w/wget/wget_1.21.3-1+b1_armhf.deb
     - name: Copy artifacts to BackBlaze/S3 bucket
       env:
         S3_BUCKET: ${{ secrets.TILES_S3_BUCKET }}
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       run: |
-        aws s3 cp --recursive ./build/ --endpoint-url=https://${{ secrets.TILES_S3_BUCKET }} s3://${{ secrets.TILES_S3_BUCKET }}
+        aws s3 cp --recursive . --endpoint-url=https://${{ secrets.TILES_S3_BUCKET }} s3://${{ secrets.TILES_S3_BUCKET }}

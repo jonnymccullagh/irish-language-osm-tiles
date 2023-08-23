@@ -1621,6 +1621,8 @@ tables:
       - toll_booth
       building:
       - dormitory
+      emergency:
+      - defibrillator
       highway:
       - bus_stop
       historic:

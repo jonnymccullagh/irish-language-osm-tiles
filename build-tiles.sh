@@ -23,4 +23,5 @@ make build-style
 make generate-bbox-file area=ireland-and-northern-ireland
 echo "**** Generate Tiles ****"
 make generate-tiles-pg
+ls -alh
 echo "End Time: $(date)"
