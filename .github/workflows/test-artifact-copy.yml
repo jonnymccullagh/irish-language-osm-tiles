@@ -113,4 +113,7 @@ jobs:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       run: |
-        s3cmd put backup.tar.gz s3://${{ secrets.TILES_S3_BUCKET }}/
+        which gpg
+        cat ~/.s3cfg
+        s3cmd ls s3://osmie-tiles
+        s3cmd put backup.tar.gz s3://${{ secrets.TILES_S3_BUCKET }}/backup.tar.gz
