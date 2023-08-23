@@ -9280,8 +9280,8 @@
         "minzoom": 0,
         "layout": {
           "text-font": [
-            "Noto Sans Regular",
-            "Noto Sans Bold"
+            "Open Sans Regular",
+            "Open Sans Bold"
           ],
           "text-size": {
             "stops": [
@@ -9324,8 +9324,8 @@
         "minzoom": 0,
         "layout": {
           "text-font": [
-            "Noto Sans Regular",
-            "Noto Sans Bold"
+            "Open Sans Regular",
+            "Open Sans Bold"
           ],
           "text-size": 12,
           "text-field": "{name:ga}\n{name:nonlatin}",
@@ -9357,7 +9357,7 @@
         "maxzoom": 24,
         "layout": {
           "text-font": [
-            "Noto Sans Regular"
+            "Open Sans Regular"
           ],
           "text-size": 11,
           "text-field": "{name:ga}\n{name:nonlatin}",
@@ -9392,7 +9392,7 @@
         "minzoom": 17,
         "layout": {
           "text-font": [
-            "Noto Sans Regular"
+            "Open Sans Regular"
           ],
           "text-size": {
             "stops": [
@@ -9427,7 +9427,7 @@
         "minzoom": 17,
         "layout": {
           "text-font": [
-            "Noto Sans Bold"
+            "Open Sans Bold"
           ],
           "text-size": {
             "stops": [
@@ -9503,7 +9503,7 @@
         "minzoom": 15,
         "layout": {
           "text-font": [
-            "Noto Sans Bold"
+            "Open Sans Bold"
           ],
           "text-size": {
             "stops": [
@@ -9566,7 +9566,7 @@
         "minzoom": 18,
         "layout": {
           "text-font": [
-            "Noto Sans Bold"
+            "Open Sans Bold"
           ],
           "text-size": {
             "stops": [
@@ -9624,7 +9624,7 @@
         "layout": {
           "icon-size": 1,
           "text-font": [
-            "Noto Sans Regular"
+            "Open Sans Regular"
           ],
           "text-size": 11,
           "text-field": "{name:ga}\n{name:nonlatin}",
@@ -9679,8 +9679,8 @@
         "layout": {
           "icon-size": 1,
           "text-font": [
-            "Noto Sans Italic",
-            "Noto Sans Regular"
+            "Open Sans Italic",
+            "Open Sans Regular"
           ],
           "text-size": 11,
           "icon-image": "{subclass}",
@@ -9736,7 +9736,7 @@
         "minzoom": 16,
         "layout": {
           "text-font": [
-            "Noto Sans Bold"
+            "Open Sans Bold"
           ],
           "text-size": {
             "stops": [
@@ -9790,7 +9790,7 @@
         "minzoom": 15,
         "layout": {
           "text-font": [
-            "Noto Sans Bold"
+            "Open Sans Bold"
           ],
           "text-size": {
             "stops": [
@@ -9855,7 +9855,7 @@
         "minzoom": 16,
         "layout": {
           "text-font": [
-            "Noto Sans Bold"
+            "Open Sans Bold"
           ],
           "text-size": {
             "stops": [
@@ -9909,7 +9909,7 @@
         "minzoom": 16,
         "layout": {
           "text-font": [
-            "Noto Sans Italic"
+            "Open Sans Italic"
           ],
           "text-size": {
             "stops": [
@@ -9964,7 +9964,7 @@
         "minzoom": 15,
         "layout": {
           "text-font": [
-            "Noto Sans Regular"
+            "Open Sans Regular"
           ],
           "text-size": {
             "stops": [
@@ -10023,7 +10023,7 @@
         "minzoom": 16,
         "layout": {
           "text-font": [
-            "Noto Sans Bold"
+            "Open Sans Bold"
           ],
           "text-size": {
             "stops": [
@@ -10082,7 +10082,7 @@
         "minzoom": 16,
         "layout": {
           "text-font": [
-            "Noto Sans Bold"
+            "Open Sans Bold"
           ],
           "text-size": {
             "stops": [
@@ -10136,7 +10136,7 @@
         "minzoom": 16,
         "layout": {
           "text-font": [
-            "Noto Sans Bold"
+            "Open Sans Bold"
           ],
           "text-size": {
             "stops": [
@@ -10202,7 +10202,7 @@
         "minzoom": 15,
         "layout": {
           "text-font": [
-            "Noto Sans Bold"
+            "Open Sans Bold"
           ],
           "text-size": {
             "stops": [
@@ -10270,7 +10270,7 @@
         "minzoom": 15,
         "layout": {
           "text-font": [
-            "Noto Sans Bold"
+            "Open Sans Bold"
           ],
           "text-size": {
             "stops": [
@@ -10324,7 +10324,7 @@
         "minzoom": 17,
         "layout": {
           "text-font": [
-            "Noto Sans Bold"
+            "Open Sans Bold"
           ],
           "text-size": {
             "stops": [
@@ -10392,8 +10392,8 @@
         "minzoom": 16,
         "layout": {
           "text-font": [
-            "Noto Sans Regular",
-            "Noto Sans Bold"
+            "Open Sans Regular",
+            "Open Sans Bold"
           ],
           "text-size": {
             "stops": [
@@ -10449,7 +10449,7 @@
         "minzoom": 14,
         "layout": {
           "text-font": [
-            "Noto Sans Bold"
+            "Open Sans Bold"
           ],
           "text-size": {
             "stops": [
@@ -10514,7 +10514,7 @@
         "minzoom": 16,
         "layout": {
           "text-font": [
-            "Noto Sans Bold"
+            "Open Sans Bold"
           ],
           "text-size": {
             "stops": [
@@ -10568,7 +10568,7 @@
         "minzoom": 17,
         "layout": {
           "text-font": [
-            "Noto Sans Bold"
+            "Open Sans Bold"
           ],
           "text-size": {
             "stops": [
@@ -10635,7 +10635,7 @@
         "layout": {
           "icon-size": 1,
           "text-font": [
-            "Noto Sans Bold"
+            "Open Sans Bold"
           ],
           "text-size": {
             "stops": [
@@ -10698,7 +10698,7 @@
         "layout": {
           "icon-size": 1,
           "text-font": [
-            "Noto Sans Regular"
+            "Open Sans Regular"
           ],
           "text-size": {
             "stops": [
@@ -10758,8 +10758,8 @@
         "layout": {
           "icon-size": 1,
           "text-font": [
-            "Noto Sans Bold",
-            "Noto Sans Regular"
+            "Open Sans Bold",
+            "Open Sans Regular"
           ],
           "text-size": 11,
           "icon-image": "{subclass}",
@@ -10816,7 +10816,7 @@
         "minzoom": 16,
         "layout": {
           "text-font": [
-            "Noto Sans Bold"
+            "Open Sans Bold"
           ],
           "text-size": {
             "stops": [
@@ -10865,7 +10865,7 @@
         "minzoom": 15,
         "layout": {
           "text-font": [
-            "Noto Sans Italic"
+            "Open Sans Italic"
           ],
           "text-size": {
             "stops": [
@@ -10924,8 +10924,8 @@
         "layout": {
           "icon-size": 1,
           "text-font": [
-            "Noto Sans Bold",
-            "Noto Sans Regular"
+            "Open Sans Bold",
+            "Open Sans Regular"
           ],
           "text-size": 11,
           "icon-image": "square_train",
@@ -11123,7 +11123,7 @@
         "minzoom": 14,
         "layout": {
           "text-font": [
-            "Noto Sans Regular"
+            "Open Sans Regular"
           ],
           "text-size": 10,
           "text-field": "{name}",
@@ -11158,7 +11158,7 @@
         "minzoom": 14,
         "layout": {
           "text-font": [
-            "Noto Sans Regular"
+            "Open Sans Regular"
           ],
           "text-size": {
             "base": 1,
@@ -11205,7 +11205,7 @@
         "layout": {
           "icon-size": 1,
           "text-font": [
-            "Noto Sans Regular"
+            "Open Sans Regular"
           ],
           "text-size": {
             "stops": [
@@ -11283,7 +11283,7 @@
         "layout": {
           "icon-size": 1,
           "text-font": [
-            "Noto Sans Regular"
+            "Open Sans Regular"
           ],
           "text-size": {
             "stops": [
@@ -11361,7 +11361,7 @@
         "layout": {
           "icon-size": 1,
           "text-font": [
-            "Noto Sans Regular"
+            "Open Sans Regular"
           ],
           "text-size": {
             "stops": [
@@ -11439,7 +11439,7 @@
         "layout": {
           "icon-size": 1,
           "text-font": [
-            "Noto Sans Regular"
+            "Open Sans Regular"
           ],
           "text-size": {
             "stops": [
@@ -11521,7 +11521,7 @@
         "layout": {
           "icon-size": 1,
           "text-font": [
-            "Noto Sans Italic"
+            "Open Sans Italic"
           ],
           "text-size": {
             "stops": [
@@ -11583,8 +11583,8 @@
         "minzoom": 14,
         "layout": {
           "text-font": [
-            "Noto Sans Italic",
-            "Noto Sans Regular"
+            "Open Sans Italic",
+            "Open Sans Regular"
           ],
           "text-size": {
             "stops": [
@@ -11625,7 +11625,7 @@
         "minzoom": 16.5,
         "layout": {
           "text-font": [
-            "Noto Sans Regular"
+            "Open Sans Regular"
           ],
           "text-size": {
             "stops": [
@@ -11664,7 +11664,7 @@
         "minzoom": 8,
         "layout": {
           "text-font": [
-            "Noto Sans Regular"
+            "Open Sans Regular"
           ],
           "text-size": {
             "base": 1.2,
@@ -11751,7 +11751,7 @@
         "minzoom": 15,
         "layout": {
           "text-font": [
-            "Noto Sans Italic"
+            "Open Sans Italic"
           ],
           "text-size": {
             "stops": [
@@ -11811,7 +11811,7 @@
         "maxzoom": 12,
         "layout": {
           "text-font": [
-            "Noto Sans Italic"
+            "Open Sans Italic"
           ],
           "text-size": 12,
           "text-field": "{name:latin}{name:nonlatin}",
@@ -11864,7 +11864,7 @@
         "minzoom": 11,
         "layout": {
           "text-font": [
-            "Noto Sans Bold"
+            "Open Sans Bold"
           ],
           "text-size": {
             "stops": [
@@ -11944,8 +11944,8 @@
           "text-max-width": 6,
           "text-line-height": 1.1,
           "text-font": [
-            "Noto Sans Regular",
-            "Noto Sans Italic"
+            "Open Sans Regular",
+            "Open Sans Italic"
           ]
         },
         "paint": {
@@ -11970,7 +11970,7 @@
         "minzoom": 8,
         "layout": {
           "text-font": [
-            "Noto Sans Regular"
+            "Open Sans Regular"
           ],
           "text-size": {
             "base": 1.2,
@@ -12012,7 +12012,7 @@
         "minzoom": 6,
         "layout": {
           "text-font": [
-            "Noto Sans Regular"
+            "Open Sans Regular"
           ],
           "text-size": {
             "base": 1.2,
@@ -12060,8 +12060,8 @@
         "maxzoom": 12,
         "layout": {
           "text-font": [
-            "Noto Sans Regular",
-            "Noto Sans Bold"
+            "Open Sans Regular",
+            "Open Sans Bold"
           ],
           "text-size": {
             "stops": [
@@ -12110,7 +12110,7 @@
         "maxzoom": 14,
         "layout": {
           "text-font": [
-            "Noto Sans Regular"
+            "Open Sans Regular"
           ],
           "text-size": {
             "base": 1.2,
@@ -12193,7 +12193,7 @@
         "layout": {
           "icon-size": 1,
           "text-font": [
-            "Noto Sans Regular"
+            "Open Sans Regular"
           ],
           "text-size": {
             "base": 1.2,
@@ -12276,7 +12276,7 @@
         "maxzoom": 15,
         "layout": {
           "text-font": [
-            "Noto Sans Regular"
+            "Open Sans Regular"
           ],
           "text-size": {
             "stops": [
@@ -12328,7 +12328,7 @@
         "maxzoom": 12,
         "layout": {
           "text-font": [
-            "Noto Sans Bold"
+            "Open Sans Bold"
           ],
           "text-size": {
             "stops": [
@@ -12396,7 +12396,7 @@
         "maxzoom": 12,
         "layout": {
           "text-font": [
-            "Noto Sans Bold"
+            "Open Sans Bold"
           ],
           "text-size": {
             "stops": [
@@ -12464,7 +12464,7 @@
         "maxzoom": 12,
         "layout": {
           "text-font": [
-            "Noto Sans Bold"
+            "Open Sans Bold"
           ],
           "text-size": {
             "stops": [
