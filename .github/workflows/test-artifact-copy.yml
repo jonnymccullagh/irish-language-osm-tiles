@@ -118,6 +118,8 @@ jobs:
         echo "----"
         s3cmd ls s3://osmie-tiles
         echo "----"
-        ls -alh
+        mkdir openmaptiles
+        cp backup.tar.gz ./openmaptiles
+        ls -alh ./openmaptiles
         echo "----"
-        s3cmd sync . s3://osmie-tiles
+        s3cmd sync ./openmaptiles s3://osmie-tiles/openmaptiles
