@@ -120,4 +120,4 @@ jobs:
         echo "----"
         ls -alh
         echo "----"
-        s3cmd put --continue-put backup.tar.gz s3://osmie-tiles
+        s3cmd sync . s3://osmie-tiles
