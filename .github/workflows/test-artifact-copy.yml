@@ -115,5 +115,9 @@ jobs:
       run: |
         which gpg
         cat ~/.s3cfg
+        echo "----"
         s3cmd ls s3://osmie-tiles
-        s3cmd put backup.tar.gz s3://${{ secrets.TILES_S3_BUCKET }}/backup.tar.gz
+        echo "----"
+        ls -alh
+        echo "----"
+        s3cmd put backup.tar.gz s3://${{ secrets.TILES_S3_BUCKET }}
