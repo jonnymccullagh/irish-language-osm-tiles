@@ -122,4 +122,4 @@ jobs:
         cp backup.tar.gz ./openmaptiles
         ls -alh ./openmaptiles
         echo "----"
-        s3cmd sync ./openmaptiles s3://osmie-tiles/openmaptiles/
+        s3cmd sync ./openmaptiles s3://osmie-tiles/
