@@ -120,4 +120,4 @@ jobs:
         echo "----"
         ls -alh
         echo "----"
-        s3cmd put backup.tar.gz s3://${{ secrets.TILES_S3_BUCKET }}
+        s3cmd cp backup.tar.gz s3://${{ secrets.TILES_S3_BUCKET }}
