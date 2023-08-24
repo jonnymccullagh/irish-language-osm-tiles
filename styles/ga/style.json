@@ -10151,7 +10151,7 @@
           ]
         },
         "icon-image": "{subclass}",
-        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-field": "{name:ga}\n{name:nonlatin}",
         "visibility": "visible",
         "text-anchor": "top",
         "text-offset": [
@@ -10217,7 +10217,7 @@
           ]
         },
         "icon-image": "{subclass}",
-        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-field": "{name:ga}\n{name:nonlatin}",
         "visibility": "visible",
         "text-anchor": "top",
         "text-offset": [
@@ -10408,7 +10408,7 @@
           ]
         },
         "icon-image": "{subclass}",
-        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-field": "{name:ga}\n{name:nonlatin}",
         "visibility": "visible",
         "text-anchor": "top",
         "text-offset": [
@@ -10529,7 +10529,7 @@
           ]
         },
         "icon-image": "camping",
-        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-field": "{name:ga}\n{name:nonlatin}",
         "visibility": "visible",
         "text-anchor": "top",
         "text-offset": [
@@ -10591,7 +10591,7 @@
             ],
             [
               18,
-              "{name:latin}\n{name:nonlatin}"
+              "{name:ga}\n{name:nonlatin}"
             ]
           ]
         },
@@ -10658,7 +10658,7 @@
             ],
             [
               16,
-              "{name:latin}\n{name:nonlatin}"
+              "{name:ga}\n{name:nonlatin}"
             ]
           ]
         },
@@ -11765,7 +11765,7 @@
             ]
           ]
         },
-        "text-field": "{name:latin}{name:nonlatin}",
+        "text-field": "{name:ga}{name:nonlatin}",
         "visibility": "visible",
         "symbol-spacing": 150,
         "text-max-width": {
@@ -11814,7 +11814,7 @@
           "Open Sans Italic"
         ],
         "text-size": 12,
-        "text-field": "{name:latin}{name:nonlatin}",
+        "text-field": "{name:ga}{name:nonlatin}",
         "visibility": "visible",
         "symbol-spacing": 150,
         "text-allow-overlap": false
@@ -11932,7 +11932,7 @@
             ],
             [
               12,
-              "{name} {ele}m"
+              "{name:ga} {ele}m"
             ]
           ]
         },
