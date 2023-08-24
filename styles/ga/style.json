@@ -972,6 +972,51 @@
       "metadata": {}
     },
     {
+      "id": "building_name",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "building",
+      "minzoom": 12,
+      "maxzoom": 24,
+      "layout": {
+        "text-font": [
+          "Open Sans Regular",
+          "Open Sans Bold"
+        ],
+        "text-size": {
+          "stops": [
+            [
+              11,
+              10
+            ],
+            [
+              13,
+              12
+            ]
+          ]
+        },
+        "text-field": "{name:ga}\n{name:nonlatin}",
+        "visibility": "visible",
+        "symbol-spacing": 400,
+        "text-max-width": 5,
+        "symbol-placement": "line"
+      },
+      "paint": {
+        "text-color": "#4d80b3",
+        "text-halo-color": "rgba(255, 255, 255, 0.8)",
+        "text-halo-width": 1
+      },
+      "metadata": {},
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "LineString"
+        ]
+      ]
+    },
+    {
       "id": "national_parks",
       "type": "line",
       "source": "openmaptiles",
