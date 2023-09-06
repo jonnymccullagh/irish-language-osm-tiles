@@ -120,7 +120,7 @@ jobs:
         echo "----"
         ls -alh ./openmaptiles
         echo "----"
-        s3cmd put --force ./openmaptiles/ireland-and-northern-ireland.bbox s3://osmie-tiles/openmaptiles/data/ireland-and-northern-ireland.bbox
-        s3cmd put --force ./openmaptiles/ireland-and-northern-ireland.osm.pbf s3://osmie-tiles/openmaptiles/data/ireland-and-northern-ireland.osm.pbf
-        s3cmd put --force ./openmaptiles/tiles.mbtiles s3://osmie-tiles/openmaptiles/data/tiles.mbtiles
+        s3cmd put --force ./openmaptiles/data/ireland-and-northern-ireland.bbox s3://osmie-tiles/openmaptiles/data/ireland-and-northern-ireland.bbox
+        s3cmd put --force ./openmaptiles/data/ireland-and-northern-ireland.osm.pbf s3://osmie-tiles/openmaptiles/data/ireland-and-northern-ireland.osm.pbf
+        s3cmd put --force ./openmaptiles/data/tiles.mbtiles s3://osmie-tiles/openmaptiles/data/tiles.mbtiles
 
