@@ -1626,7 +1626,7 @@ tables:
       building:
         - dormitory
         - school
-        - yes
+        - "yes"
       emergency:
         - defibrillator
       highway:
