@@ -62,13 +62,35 @@
             img: "https://cloud.maptiler.com/static/img/maps/hybrid.png"
         }
       }
+
+      let zoom = 7;
+      let lat = 53.52693496472557;
+      let lng = -7.316696130268866;
+      const hashmatch = document.location.hash.match(/map=(-?\d+(?:\.\d+)?)\/(-?\d+(?:\.\d+)?)\/(-?\d+(?:\.\d+)?)/);
+      if (hashmatch) {
+        zoom = parseFloat(hashmatch[1]);
+        lat = parseFloat(hashmatch[2]);
+        lng = parseFloat(hashmatch[3]);
+      }
       
       const map = new maplibregl.Map({
         container: 'map', // container's id or the HTML element to render the map
         style: "https://learscail.openstreetmap.ie/styles/ga/style.json",
-        center: [ -7.316696130268866, 53.52693496472557], // starting position [lng, lat]
-        zoom: 7, // starting zoom
+        center: [lng, lat],
+        zoom: zoom,
       });
+
+      map.on('moveend', () => {
+        const center = map.getCenter();
+        const zoom = map.getZoom();        
+        const lat = center.lat.toFixed(5);
+        const lng = center.lng.toFixed(5);
+        const z = zoom.toFixed(0);
+
+        // Update the location hash as #zoom/lat/lng
+        document.location.hash = `#map=${z}/${lat}/${lng}`;
+      });
+    
       const initialStyle = "streets";
       map.addControl(new maplibregl.NavigationControl(), 'top-right')
       class layerSwitcherControl {
