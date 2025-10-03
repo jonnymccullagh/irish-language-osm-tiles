@@ -16,9 +16,10 @@ cd data
 # Download file
 wget https://download.geofabrik.de/europe/ireland-and-northern-ireland-latest.osm.pbf
 # Rename after download
-mv ireland-and-northern-ireland-latest.osm.pbf tireland-and-northern-ireland.osm.pbf
+mv ireland-and-northern-ireland-latest.osm.pbf ireland-and-northern-ireland.osm.pbf
 cd ..
 echo "**** Import ****"
+ls -al data
 make import-osm area=ireland-and-northern-ireland
 make import-wikidata area=ireland-and-northern-ireland
 echo "**** Copy mapping file ****"
