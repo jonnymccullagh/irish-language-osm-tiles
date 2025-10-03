@@ -2,7 +2,7 @@
 echo "Start Time: $(date)"
 git clone https://github.com/openmaptiles/openmaptiles.git
 cd openmaptiles
-git checkout v3.14
+git checkout v3.15
 sed -i 's/MAX_ZOOM=7/MAX_ZOOM=17/' .env
 make remove-docker-images
 echo "**** Starting DB container ****"
@@ -10,7 +10,11 @@ make start-db
 echo "**** Import Data ****"
 make import-data
 echo "**** Download Area ****"
-make download area="ireland-and-northern-ireland"
+#make download area="ireland-and-northern-ireland"
+mkdir data
+cd data
+wget https://download.geofabrik.de/europe/ireland-and-northern-ireland-latest.osm.pbf
+cd ..
 echo "**** Import ****"
 make import-osm area=ireland-and-northern-ireland
 make import-wikidata area=ireland-and-northern-ireland
