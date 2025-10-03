@@ -11,9 +11,12 @@ echo "**** Import Data ****"
 make import-data
 echo "**** Download Area ****"
 #make download area="ireland-and-northern-ireland"
-mkdir data
+mkdir -p data
 cd data
+# Download file
 wget https://download.geofabrik.de/europe/ireland-and-northern-ireland-latest.osm.pbf
+# Rename after download
+mv ireland-and-northern-ireland-latest.osm.pbf tireland-and-northern-ireland.osm.pbf
 cd ..
 echo "**** Import ****"
 make import-osm area=ireland-and-northern-ireland
