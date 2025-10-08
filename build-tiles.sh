@@ -18,6 +18,7 @@ wget https://download.geofabrik.de/europe/ireland-and-northern-ireland-latest.os
 # Rename after download
 mv ireland-and-northern-ireland-latest.osm.pbf ireland-and-northern-ireland.osm.pbf
 cd ..
+make generate-bbox-file area=ireland-and-northern-ireland
 echo "**** Import ****"
 ls -al data
 make import-osm area=ireland-and-northern-ireland
