@@ -1,7 +1,7 @@
 {
   "version": 8,
-  "name": "Léarscáil na hÉireann",
-  "id": "openmaptiles",
+  "name": "Léarscáil na hÉireann sraid-v1",
+  "id": "sraid-v1",
   "center": [
         -7.316696130268866,
         53.52693496472557
@@ -20,7 +20,7 @@
     }
   },
   "glyphs": "{fontstack}/{range}.pbf",
-  "sprite": "styles/ga/sprite",
+  "sprite": "styles/sraid-v1/sprite",
   "layers": [
     {
       "id": "background",
@@ -49,9 +49,9 @@
             "class"
           ],
           "railway",
-          "#ebdbe8",
+          "#e0e2eb",
           "residential",
-          "#e0dfdf",
+          "#ece7e4",
           "cemetery",
           "#aacbaf",
           "military",
@@ -59,7 +59,7 @@
           "commercial",
           "#f2dad9",
           "industrial",
-          "#ebdbe8",
+          "#e0e2eb",
           "garages",
           "#dfddce",
           "retail",
@@ -77,13 +77,13 @@
           "hospital",
           "#ffffe5",
           "stadium",
-          "#d5ffd9",
+          "#b8eaad",
           "pitch",
-          "#aae0cb",
+          "#d0f4be",
           "playground",
-          "#d5ffd9",
+          "#b8eaad",
           "track",
-          "#aae0cb",
+          "#d0f4be",
           "dam",
           "#adadad",
           "#000"
@@ -146,7 +146,7 @@
             ],
             [
               12,
-              "#e0dfdf"
+              "#ece7e4"
             ]
           ]
         }
@@ -213,7 +213,7 @@
           "farmland",
           "#eef0d5",
           "wood",
-          "#add19e",
+          "#a4e39c",
           "rock",
           "#eee5dc",
           "grass",
@@ -221,7 +221,7 @@
           "sand",
           "#f5e9c6",
           "wetland",
-          "#add19e",
+          "#a4e39c",
           "#000"
         ],
         "fill-opacity": {
@@ -284,7 +284,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "fill-color": "#c8facc",
+        "fill-color": "#b8eaad",
         "fill-antialias": true
       },
       "filter": [
@@ -323,19 +323,19 @@
           "dune",
           "#f5e9c6",
           "scrub",
-          "#a4c188",
+          "#cde7c5",
           "farm",
           "#f5dcba",
           "farmland",
           "#eef0d5",
           "forest",
-          "#add19e",
+          "#a4e39c",
           "grass",
           "#cdebb0",
           "grassland",
           "#cdebb0",
           "golf_course",
-          "#def6c0",
+          "#c0e8b8",
           "heath",
           "#d6d99f",
           "mangrove",
@@ -345,13 +345,13 @@
           "orchard",
           "#aedfa3",
           "park",
-          "#c8facc",
+          "#b8eaad",
           "garden",
           "#cdebb0",
           "plant_nursery",
           "#aedfa3",
           "recreation_ground",
-          "#d5ffd9",
+          "#b8eaad",
           "reedbed",
           "#cdebb0",
           "saltmarsh",
@@ -361,7 +361,7 @@
           "scree",
           "#eee5dc",
           "swamp",
-          "#add19e",
+          "#a4e39c",
           "tidalflat",
           "#DED6CF",
           "village_green",
@@ -371,9 +371,9 @@
           "wet_meadow",
           "#cdebb0",
           "wetland",
-          "#add19e",
+          "#a4e39c",
           "wood",
-          "#add19e",
+          "#a4e39c",
           "marsh",
           "#6b5f08",
           "#FFFFFF"
@@ -915,7 +915,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "fill-color": "#aad3df"
+        "fill-color": "#99ddff"
       },
       "metadata": {},
       "filter": [
@@ -951,7 +951,7 @@
             ],
             [
               16,
-              "#d9d0c9"
+              "#ded7d4"
             ]
           ]
         },
@@ -1023,7 +1023,7 @@
       "source-layer": "park",
       "minzoom": 8,
       "layout": {
-        "visibility": "visible"
+        "visibility": "none"
       },
       "paint": {
         "line-color": "rgba(154, 199, 136, 1)",
@@ -5368,7 +5368,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "#fcd6a4",
+        "line-color": "#f7e06e",
         "line-width": {
           "base": 1.2,
           "stops": [
@@ -5515,11 +5515,11 @@
           "stops": [
             [
               6,
-              "#e66e89"
+              "#ffb366"
             ],
             [
               10,
-              "#e892a2"
+              "#ffb366"
             ]
           ]
         },
@@ -5726,7 +5726,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "rgba(254, 190, 200, 1)",
+        "line-color": "#d0d0d0",
         "line-width": {
           "base": 1.2,
           "stops": [
@@ -5993,11 +5993,11 @@
           "stops": [
             [
               10.5,
-              "#bbbbbb"
+              "#ffffff"
             ],
             [
               10.6,
-              "#f7fabf"
+              "#ffffff"
             ]
           ]
         },
@@ -6255,11 +6255,11 @@
           "stops": [
             [
               10.5,
-              "#bbbbbb"
+              "#ffffff"
             ],
             [
               10.6,
-              "#f7fabf"
+              "#ffffff"
             ]
           ]
         },
@@ -6353,7 +6353,7 @@
             ],
             [
               11,
-              "#fcd6a4"
+              "#f7e06e"
             ]
           ]
         },
@@ -6448,7 +6448,7 @@
             ],
             [
               11,
-              "#fcd6a4"
+              "#f7e06e"
             ]
           ]
         },
@@ -6733,11 +6733,11 @@
           "stops": [
             [
               6,
-              "#e66e89"
+              "#ffb366"
             ],
             [
               10,
-              "#e892a2"
+              "#ffb366"
             ]
           ]
         },
@@ -8046,11 +8046,11 @@
           "stops": [
             [
               6,
-              "#e66e89"
+              "#ffb366"
             ],
             [
               10,
-              "#e892a2"
+              "#ffb366"
             ]
           ]
         },
@@ -8569,7 +8569,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "#fcd6a4",
+        "line-color": "#f7e06e",
         "line-width": {
           "base": 1.2,
           "stops": [
@@ -8745,11 +8745,11 @@
           "stops": [
             [
               6,
-              "#e66e89"
+              "#ffb366"
             ],
             [
               10,
-              "#e892a2"
+              "#ffb366"
             ]
           ]
         },
@@ -9446,6 +9446,10 @@
               9
             ],
             [
+              19,
+              10
+            ],
+            [
               22,
               11
             ]
@@ -9460,8 +9464,9 @@
       },
       "paint": {
         "text-color": "rgba(102, 102, 102, 1)",
-        "text-halo-color": "rgba(255,255,255,0.8)",
-        "text-halo-width": 1
+        "text-halo-color": "rgba(255, 255, 255, 1)",
+        "text-halo-width": 2,
+        "text-halo-blur": 1
       }
     },
     {
@@ -9535,8 +9540,7 @@
           "!in",
           "subclass",
           "mall",
-          "library",
-          "artwork"
+          "library"
         ]
       ]
     },
@@ -9778,7 +9782,7 @@
       "type": "symbol",
       "source": "openmaptiles",
       "source-layer": "poi",
-      "minzoom": 16,
+      "minzoom": 18,
       "layout": {
         "text-font": [
           "Open Sans Bold"
@@ -9832,7 +9836,7 @@
       "type": "symbol",
       "source": "openmaptiles",
       "source-layer": "poi",
-      "minzoom": 15,
+      "minzoom": 16,
       "layout": {
         "text-font": [
           "Open Sans Bold"
@@ -9897,7 +9901,7 @@
       "type": "symbol",
       "source": "openmaptiles",
       "source-layer": "poi",
-      "minzoom": 16,
+      "minzoom": 14,
       "layout": {
         "text-font": [
           "Open Sans Bold"
@@ -9915,7 +9919,7 @@
           ]
         },
         "icon-image": "golf",
-        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-field": "{name:ga}",
         "visibility": "visible",
         "text-anchor": "top",
         "text-offset": [
@@ -9969,7 +9973,7 @@
           ]
         },
         "icon-image": "{subclass}",
-        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-field": "{name:ga}\n{name:nonlatin}",
         "visibility": "visible",
         "text-anchor": "top",
         "text-offset": [
@@ -10024,7 +10028,7 @@
           ]
         },
         "icon-image": "ferry",
-        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-field": "{name:ga}\n{name:nonlatin}",
         "visibility": "visible",
         "text-anchor": "top",
         "text-offset": [
@@ -10244,7 +10248,7 @@
       "type": "symbol",
       "source": "openmaptiles",
       "source-layer": "poi",
-      "minzoom": 15,
+      "minzoom": 14,
       "layout": {
         "text-font": [
           "Open Sans Bold"
@@ -10392,7 +10396,7 @@
             ],
             [
               16,
-              "{name:latin}\n{name:nonlatin}"
+              "{name:ga}\n{name:nonlatin}"
             ]
           ]
         },
@@ -10482,6 +10486,7 @@
           "class",
           "pharmacy",
           "dentist",
+          "clinic",
           "veterinary"
         ]
       ]
@@ -10517,7 +10522,7 @@
             ],
             [
               16,
-              "{name:latin}\n{name:nonlatin}"
+              "{name:ga}\n{name:nonlatin}"
             ]
           ]
         },
@@ -10758,7 +10763,7 @@
           ]
         },
         "icon-image": "bus_stop.12",
-        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-field": "{name:ga}\n{name:nonlatin}",
         "visibility": "visible",
         "icon-anchor": "bottom",
         "text-anchor": "top",
@@ -10808,7 +10813,7 @@
         ],
         "text-size": 11,
         "icon-image": "{subclass}",
-        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-field": "{name:ga}\n{name:nonlatin}",
         "visibility": "visible",
         "icon-anchor": "bottom",
         "icon-offset": [
@@ -10875,7 +10880,7 @@
             ]
           ]
         },
-        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-field": "{name:ga}\n{name:nonlatin}",
         "visibility": "visible",
         "text-anchor": "top",
         "text-padding": 2,
@@ -10924,7 +10929,7 @@
             ]
           ]
         },
-        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-field": "{name:ga}\n{name:nonlatin}",
         "visibility": "visible",
         "text-anchor": "top",
         "text-offset": [
@@ -10974,7 +10979,7 @@
         ],
         "text-size": 11,
         "icon-image": "square_train",
-        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-field": "{name:ga}",
         "visibility": "visible",
         "icon-anchor": "bottom",
         "icon-offset": [
@@ -11250,7 +11255,7 @@
       "layout": {
         "icon-size": 1,
         "text-font": [
-          "Open Sans Regular"
+          "Open Sans Bold"
         ],
         "text-size": {
           "stops": [
@@ -11299,7 +11304,7 @@
         "text-rotation-alignment": "viewport"
       },
       "paint": {
-        "text-color": "#3b3b3b"
+        "text-color": "#000000"
       },
       "filter": [
         "all",
@@ -11328,7 +11333,7 @@
       "layout": {
         "icon-size": 1,
         "text-font": [
-          "Open Sans Regular"
+          "Open Sans Bold"
         ],
         "text-size": {
           "stops": [
@@ -11406,7 +11411,7 @@
       "layout": {
         "icon-size": 1,
         "text-font": [
-          "Open Sans Regular"
+          "Open Sans Bold"
         ],
         "text-size": {
           "stops": [
@@ -11455,7 +11460,7 @@
         "text-rotation-alignment": "viewport"
       },
       "paint": {
-        "text-color": "#4c2e00"
+        "text-color": "#ffe566"
       },
       "filter": [
         "all",
@@ -11484,7 +11489,7 @@
       "layout": {
         "icon-size": 1,
         "text-font": [
-          "Open Sans Regular"
+          "Open Sans Bold"
         ],
         "text-size": {
           "stops": [
@@ -11536,7 +11541,7 @@
         "text-rotation-alignment": "viewport"
       },
       "paint": {
-        "text-color": "#620728"
+        "text-color": "#ffffff"
       },
       "filter": [
         "all",
@@ -11580,7 +11585,7 @@
             ]
           ]
         },
-        "icon-image": "aerodrome.12",
+        "icon-image": "airport",
         "text-field": {
           "stops": [
             [
@@ -11589,7 +11594,7 @@
             ],
             [
               11,
-              "{name:latin}\n{name:nonlatin}"
+              "{name:ga}\n{name:nonlatin}"
             ]
           ]
         },

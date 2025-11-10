@@ -8,10 +8,19 @@
       }
     },
     "styles": {
+      "fresh": {
+        "style": "sraid-v1/style.json",
+        "sources": {
+        "openmaptiles": {
+          "url": "mbtiles://{ireland-vector}",
+          "type": "vector"
+        }
+      }
+      },
       "ga": {
         "style": "ga/style.json",
         "sources": {
-        "ireland-vector": {
+        "openmaptiles": {
           "url": "mbtiles://{ireland-vector}",
           "type": "vector"
         }

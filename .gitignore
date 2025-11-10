@@ -1,2 +1,7 @@
 openmaptiles/
 styles/satellite
+tmp
+.DS_Store
+.claude
+env
+tiles.mbtiles
